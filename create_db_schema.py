@@ -2,6 +2,7 @@ from sqlalchemy import MetaData, Table, String, Integer, \
     Column, Text, DateTime, Boolean, ForeignKey, \
     PrimaryKeyConstraint, ForeignKeyConstraint, CheckConstraint
 from datetime import datetime
+from credentials import user, password
 
 # информация о всей БД и таблицах, используется для создания или удаления таблиц в БД
 metadata = MetaData()
